@@ -1,0 +1,46 @@
+.section{
+    max-width: 48rem;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: cornflowerblue;
+}
+.section h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.section button{
+    border: none;
+    border-radius: 3px;
+    padding: 1rem;
+    cursor: pointer;
+
+    align-self: flex-end ; /*Quiere decir: aliniese a sí mismo*/
+}
+.section button:hover{
+    background-color: chocolate;
+    transition: 0.3s;
+}
+
+/*Sección de los items*/
+
+.root{
+    width: 100%;
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 10px;
+
+}
+.root .box_img{
+    width: 100%;
+}
+.box_img img{
+    width: 100%;
+}
+.cat{
+    width: 95%;
+}
