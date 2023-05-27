@@ -1,27 +1,78 @@
 .section{
     max-width: 48rem;
     margin: auto;
-
+    padding-left: 1rem;
     display: flex;
     flex-direction: column;
 
     background-color: cornflowerblue;
+    border-radius: 2rem;
 }
 .section h1{
     text-align: center;
+    font-size: 7rem;
+    -webkit-text-stroke: 1px whitesmoke;
+    color: transparent;
+    margin-top: -2rem;
+}
+.section h3{
+    text-align: center;
+    margin-top: 4rem;
     font-size: 3rem;
+    color: whitesmoke;
+}
+.box{
+    margin-right: 1rem;
+    background-color: #8EA7E9;
+    border-radius: 1.5rem;
+    margin-bottom: 3rem;
+
+    box-shadow: 11px 18px 40px -2px rgba(89,89,89,0.67);
+    -webkit-box-shadow: 11px 18px 40px -2px rgba(89,89,89,0.67);
+    -moz-box-shadow: 11px 18px 40px -2px rgba(89,89,89,0.67);
+}
+.sub_box{
+    background-color: #BFACE2;
+    margin: 2.5rem;
+    padding-top: 0.035rem;
+    padding-bottom: 0.035rem;
+    border-radius: 1.5rem;
+}
+.sub_box p{
+    text-align: center;
+    border-radius: 1.5rem;
+    font-size: 2rem;
+    margin: 3rem;
+    padding: 1rem;
+    background-color: #a991dd;
+    color: whitesmoke;
 }
 .section button{
     border: none;
-    border-radius: 3px;
-    padding: 1rem;
+    border-radius: 2rem;
+
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    padding: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    font-family: 'Cherry Bomb One', cursive;
+    font-size: 2rem;
+    color: rgb(72, 108, 177);
+   
+
     cursor: pointer;
 
-    align-self: flex-end ; /*Quiere decir: aliniese a sí mismo*/
+    align-self:center ; /*Quiere decir: aliniese a sí mismo*/
+
+    box-shadow: 11px 18px 45px -2px rgba(89,89,89,0.67);
+    -webkit-box-shadow: 11px 18px 45px -2px rgba(89,89,89,0.67);
+    -moz-box-shadow: 11px 18px 45px -2px rgba(89,89,89,0.67);
 }
 .section button:hover{
-    background-color: chocolate;
-    transition: 0.3s;
+    background-color: #8696FE;
+    transition: 0.2s;
 }
 
 /*Sección de los items*/
@@ -40,7 +91,14 @@
 }
 .box_img img{
     width: 100%;
+    
 }
 .cat{
     width: 95%;
+    border: 5px solid whitesmoke;
+    border-radius: 2rem;
+
+    box-shadow: 11px 18px 45px -2px rgba(89,89,89,0.67);
+    -webkit-box-shadow: 11px 18px 45px -2px rgba(89,89,89,0.67);
+    -moz-box-shadow: 11px 18px 45px -2px rgba(89,89,89,0.67);
 }
